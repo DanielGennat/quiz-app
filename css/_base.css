@@ -1,10 +1,11 @@
 /* Resets and basic setup*/
 
 :root {
-  --primary: #e6beae;
-  --primary-light: #eee4e1;
-  --secondary: #b2967d;
-  --secondary-light: #e7d8c9;
+  --primary: #1667aa;
+  --secondary: #ff675b;
+  --tertiary: #ffac88;
+  --quaternary: #fff1b2;
+  --quinary: #80f3b8;
   --white: #ecf8f8;
   --black: #211103;
 
