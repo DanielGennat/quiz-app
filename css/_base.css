@@ -10,6 +10,8 @@
 
   /* font-family */
 
+  @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+
   --ff-sans: sans-serif;
   --ff-serif: serif;
 
@@ -46,6 +48,7 @@ p {
 body {
   line-height: 1.5;
   font-size: 1.25rem; /* var(--fs-400) */
+  font-family: "Square Peg", cursive;
 }
 
 ul[class],
