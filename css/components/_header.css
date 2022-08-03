@@ -1,8 +1,11 @@
-.header {
+header {
   background-color: var(--secondary);
   text-align: center;
   padding: 15px;
   position: fixed;
-  top: 0px;
-  width: 100%;
+  top: 0;
+  left: 3px;
+  right: 3px;
+  border-bottom: 3px solid;
+  border-top: 3px solid;
 }
