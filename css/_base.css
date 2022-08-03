@@ -1,5 +1,7 @@
 /* Resets and basic setup*/
 
+@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+
 :root {
   --primary: #1667aa;
   --secondary: #ff675b;
@@ -10,8 +12,6 @@
   --black: #211103;
 
   /* font-family */
-
-  @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
 
   --ff-sans: sans-serif;
   --ff-serif: serif;
