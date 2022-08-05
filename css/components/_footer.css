@@ -2,7 +2,15 @@ footer {
   background-color: var(--secondary);
   height: 48px;
   position: fixed;
-  bottom: 3px;
+  bottom: 0;
   left: 0;
-  width: ;
+  right: 0;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
 }
