@@ -1,9 +1,8 @@
-header {
+footer {
   background-color: var(--secondary);
-  text-align: center;
-  padding: 15px;
+  height: 48px;
   position: fixed;
-  top: 0;
+  bottom: 3px;
   left: 0;
-  right: 0;
+  width: ;
 }
