@@ -14,3 +14,14 @@ footer {
   align-items: center;
   height: 100%;
 }
+
+.footer__nav--home,
+.footer__nav--bookmark,
+.footer__nav--profile {
+  padding: 5px 20px 5px 20px;
+  border-radius: 50%;
+}
+
+.footer__nav--home {
+  background-color: var(--quinary);
+}
