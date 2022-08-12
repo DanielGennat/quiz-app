@@ -51,6 +51,7 @@ body {
   font-size: 1.25rem; /* var(--fs-400) */
   font-family: "Square Peg", cursive;
   background-color: var(--primary);
+  min-height: 100vh;
 }
 
 ul[class],
