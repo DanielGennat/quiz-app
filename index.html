@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./index.js" defer></script>
   </head>
 
   <body class="border">
@@ -31,8 +32,8 @@
           <p class="question-cards__general-layout--questions">
             What property flips the axes in flexbox?
           </p>
-          <button type="button">Show Answer</button>
-          <p class="hidden">flex direction</p>
+          <button type="button" data-js="showAnswerButton">Show Answer</button>
+          <p data-js="answer" class="hidden">flex direction</p>
           <nav class="question-cards__general-layout--tag-position">
             <a class="question-cards__general-layout--tags" href="#">#html</a>
             <a class="question-cards__general-layout--tags" href="#"
