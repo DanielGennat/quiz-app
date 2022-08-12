@@ -22,6 +22,6 @@ footer {
   border-radius: 50%;
 }
 
-.footer__nav--home {
+.current {
   background-color: var(--quinary);
 }
