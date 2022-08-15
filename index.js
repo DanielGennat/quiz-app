@@ -1,6 +1,3 @@
-const showAnswerButton = document.querySelector("[data-js=showAnswerButton]");
-const answer = document.querySelector("[data-js=answer]");
+import answerToggle from "./js/_answerToggle.js";
 
-showAnswerButton.addEventListener("click", () => {
-  answer.classList.toggle("hidden");
-});
+answerToggle();
