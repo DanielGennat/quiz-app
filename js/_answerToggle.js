@@ -7,11 +7,11 @@ export default function answerToggle() {
     const answer = questionCard.querySelector("[data-js=answer]");
     showAnswerButton.addEventListener("click", () => {
       answer.classList.toggle("hidden");
-      if (answer.classList.includes("hidden") === true) {
+      if (answer.classList.contains("hidden") === true) {
         console.log("test if");
-        showAnswerButton.textContent.replace("Hide Answer", "Show Answer");
+        showAnswerButton.textContent = "Show Answer";
       } else {
-        showAnswerButton.textContent.replace("Show Answer", "Hide Answer");
+        showAnswerButton.textContent = "Hide Answer";
         console.log("test else");
       }
     });
