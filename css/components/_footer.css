@@ -20,6 +20,8 @@ footer {
 .footer__nav--profile {
   padding: 5px 20px 5px 20px;
   border-radius: 50%;
+  background: none;
+  border: none;
 }
 
 .current {

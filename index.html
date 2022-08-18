@@ -15,7 +15,7 @@
     </header>
 
     <main>
-      <section class="question-cards">
+      <section class="question-cards" data-js="questionCardSection">
         <!-------QuestionCard--------------------------------------------------------->
         <article
           class="question-cards__general-layout question-cards__1 border"
@@ -194,23 +194,34 @@
         </article>
       </section>
 
-      <section></section>
+      <section class="bookmarks" data-js="bookmarksSection">
+        <div height="50" width="50"></div>
+        <p>bookmarks</p>
+        <div height="50" width="50"></div>
+      </section>
+
+      <section class="profile" data-js="profileSection">
+        <div height="50" width="50"></div>
+        <p>profile</p>
+        <div height="50" width="50"></div>
+      </section>
+
+
     </main>
 
     <footer class="border">
       <nav class="footer__nav">
-        <a class="footer__nav--home current" href="index.html">
-          <img src="/assets/home_icon.svg" alt="Home" height="24" width="24" />
-        </a>
-        <a class="footer__nav--bookmark" href="bookmarks.html">
+        <button class="footer__nav--home current" data-js="navigationButton" type="button"><img src="/assets/home_icon.svg" alt="Home" height="24" width="24"/></button>
+        
+        <button class="footer__nav--bookmark" data-js="navigationButton" type="button">
           <img
             src="/assets/bookmark_icon_outlined.svg"
             alt="Bookmark"
             height="24"
             width="24"
           />
-        </a>
-        <a class="footer__nav--profile" href="#">
+        </button>
+        <button class="footer__nav--profile" data-js="navigationButton" type="button">
           <img
             src="/assets/profile_icon.svg"
             alt="Profile"
