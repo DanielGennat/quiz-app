@@ -52,6 +52,7 @@ body {
   font-family: "Square Peg", cursive;
   background-color: var(--primary);
   min-height: 100vh;
+  overflow: hidden;
 }
 
 ul[class],
